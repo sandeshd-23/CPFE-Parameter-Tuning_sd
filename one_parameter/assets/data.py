@@ -1,6 +1,6 @@
 from odbAccess import openOdb
 from abaqusConstants import *
-
+import math
 
 def extractData(odbFile):
     """Extract RF3 vs Time for Node 84, scale RF3, and return max scaled RF3"""
